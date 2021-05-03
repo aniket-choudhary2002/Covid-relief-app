@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sanjeevini4">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="257dp"
+        android:layout_height="88dp"
+        android:text="REMDESIVIR"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="257dp"
+        android:layout_height="88dp"
+        android:text="OXYGEN CYLINDER"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="257dp"
+        android:layout_height="88dp"
+        android:text="PLASMA"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="205dp"
+        android:layout_height="47dp"
+        android:text="EXIT"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="             Click Icon As per Requirement"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="118dp"
+        android:layout_height="89dp"
+        app:srcCompat="@drawable/lo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="135dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/kj"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="104dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/ds"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/po"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="356dp"
+        android:layout_height="56dp"
+        android:text="OTHERS"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="250dp"
+        android:layout_height="98dp"
+        android:text="HOSPITAL BEDS"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

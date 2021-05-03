@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sanjeevini3">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="393dp"
+        android:layout_height="63dp"
+        android:text="Ahmedabad"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="393dp"
+        android:layout_height="63dp"
+        android:text="SURAT"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="393dp"
+        android:layout_height="63dp"
+        android:text="Bengaluru"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="393dp"
+        android:layout_height="63dp"
+        android:text="Indore"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="599dp"
+        android:layout_height="283dp"
+        app:srcCompat="@drawable/search_engine"
+        tools:layout_editor_absoluteX="-81dp"
+        tools:layout_editor_absoluteY="-106dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="424dp"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/kl"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="393dp"
+        android:layout_height="63dp"
+        android:text="Mumbai "
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
